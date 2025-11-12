@@ -25,10 +25,12 @@ All file and folder names should match exactly as shown.
 ### Step 2. Run the pipeline:
 
 Once the data are in place, execute:
+```
 >>>python src/pipeline.py data
+```
 
 Folder Structure and User Setup:
-'''
+```
 us-banking-regulatory-dataset/
 
 ├── src/
@@ -97,4 +99,4 @@ us-banking-regulatory-dataset/
 │       └── final_call_reports_dataset.csv   Final dataset containing all constructed variables and attributes.  
 │  
 └── README.md
-'''
+```
